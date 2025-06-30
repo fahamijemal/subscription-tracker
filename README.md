@@ -65,7 +65,7 @@ JWT_EXPIRES_IN=7d
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/<your-username>/subscription-tracker-api.git
+git clone https://github.com/fahamijemal/subscription-tracker-api.git
 cd subscription-tracker-api
 2. Install Dependencies
 bash
@@ -87,11 +87,12 @@ npm run dev
 Server will run at: http://localhost:3000
 
 🔌 API Endpoints
+
 Method	Route	Description
 POST	/api/v1/auth/register	Register a new user
 POST	/api/v1/auth/login	Login user
 GET	/api/v1/users	List all users (admin)
-CRUD	/api/v1/sub/	Manage subscriptions
+CRUD	/api/v1/sub/	Manage        subscriptions
 GET	/api/v1/sub/user/:id	Subscriptions by user
 PUT	/api/v1/sub/:id/cancel	Cancel a subscription
 
@@ -108,22 +109,13 @@ Copy code
   "startDate": "2023-12-01",
   "renewalDate": "2024-01-01"
 }
-🧪 To-Do (Optional Enhancements)
- Add unit tests (Jest or Mocha)
 
- Role-based access control (admin, user)
-
- Swagger or Postman API documentation
-
- Frontend (React / Vite) to visualize subscriptions
-
- Deployment (Render, Railway, or Code Engine)
 
 👨‍💻 Author
 Fahami Jemal Harun
 Full-Stack Developer from Ethiopia 🇪🇹
-LinkedIn | GitHub
+- [LinkedIn](https://www.linkedin.com/in/fahamijemal)
+- [GitHub](https://github.com/fahamijemal)
 
-📄 License
-This project is open-source and available under the MIT License.
+
 
