@@ -94,6 +94,9 @@ npm install
 **Fahami Jemal Harun**  
 💻 Full-Stack Developer from Ethiopia 🇪🇹  
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fahamijemal)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/fahamijemal)
-[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/fahamijemal)
+[linkedin-icon]: https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin
+[github-icon]: https://img.shields.io/badge/-GitHub-181717?logo=github
+[telegram-icon]: https://img.shields.io/badge/-Telegram-26A5E4?logo=telegram
+[linkedin]: https://linkedin.com/in/fahamijemal
+[github]: https://github.com/fahamijemal
+[telegram]: https://t.me/fahamijemal
