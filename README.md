@@ -41,38 +41,38 @@ subscription_tracker/
 ├── package.json
 └── README.md
 
-🔐 Environment Variables
-Create a file named .env.development.local and add:
+## 🔐 Environment Variables
 
+Create a file named `.env.development.local` in the root directory and add:
+
+```env
 PORT=3000
 NODE_ENV=development
 DB_URL=mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net/
-JWT_SECRET=your_jwt_secret
+JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRES_IN=7d
 
-📦 Getting Started
-1. Clone the Repository
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/fahamijemal/subscription-tracker-api.git
 cd subscription-tracker-api
 
-2. Install Dependencies
+## 📦 Getting Started
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/fahamijemal/subscription-tracker-api.git
+cd subscription-tracker-api
+
+## 🛠️ Installation & Configuration
+
+### 2. Install Dependencies
+```bash
 npm install
-
-3. Configure MongoDB Atlas
-Go to MongoDB Atlas
-
-Create a cluster
-
-Whitelist your IP and create a user
-
-Replace DB_URL in .env.development.local with your connection string
-
-4. Start the Server
-bash
-npm run dev
-Server will run at: http://localhost:3000
-
 
 ## 🔌 API Endpoints
 
@@ -89,9 +89,11 @@ Server will run at: http://localhost:3000
 | `GET`   | `/api/v1/sub/user/:id`      | Get subscriptions by user ID         | ✅ Yes        |
 | `PUT`   | `/api/v1/sub/:id/cancel`    | Cancel a subscription                | ✅ Yes        |
 
+## 👨‍💻 Author
 
-👨‍💻 Author
-Fahami Jemal Harun
-Full-Stack Developer from Ethiopia 🇪🇹
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fahamijemal)
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/fahamijemal)
+**Fahami Jemal Harun**  
+💻 Full-Stack Developer from Ethiopia 🇪🇹  
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fahamijemal)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/fahamijemal)
+[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/fahamijemal)
