@@ -9,7 +9,9 @@ if (!DB_URL) {
 // Connect to MongoDB using Mongoose
 const connectToDatabase = async () => {
   try {
-    await mongoose.connect(DB_URL);
+    await mongoose.connect(DB_URL,{
+      serverSelectionTimeoutMS: 10000,
+    });
     console.log(`Connected to MongoDB in ${NODE_ENV} mode`);
   } catch (error) {
     console.error('Error connecting to MongoDB:', error);
